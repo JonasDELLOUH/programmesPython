@@ -1,0 +1,11 @@
+#coding:utf
+class Joueur:
+    def __init__(self,n,s):
+        self.nom = n
+        self.symbole = s
+
+    def getNom(self):
+        return self.nom
+
+    def getSymbole(self):
+        return self.symbole
